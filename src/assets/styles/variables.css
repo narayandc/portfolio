@@ -1,0 +1,15 @@
+:root {
+    --primary-color: #81C784;
+    --hover-color: #91de91;
+    --secondary-color: #AD1457;
+    --error-color: #e91a13;
+    --ternary-color: #FFFFFF;
+    --primary-font-color: #000000;
+    --variant_1: 48px;
+    --variant_2: 40px;
+    --variant_3: 36px;
+    --variant_4: 24px;
+    --variant_5: 14px;
+    --variant_6: 12px;
+    --variant_7: 8px;
+  }

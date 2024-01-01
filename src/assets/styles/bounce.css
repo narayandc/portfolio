@@ -1,0 +1,38 @@
+.arrow {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(15px);
+  }
+}
+
+.animation-dev-text {
+  font-size: var(--variant_1);
+  color: var(--ternary-color);
+  text-transform: capitalize;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 600;
+  padding: 10px;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: example 4s linear 0s infinite alternate;
+}
+
+@keyframes example {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
